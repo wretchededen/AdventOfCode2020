@@ -1,4 +1,4 @@
-package Day1;
+package day1;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -13,7 +13,7 @@ public class ReportRepairFromTwoNumbers {
         int answer;
         List<Integer> numbers = new ArrayList<>();
 
-        Scanner list = new Scanner(new File(System.getProperty("user.dir") + "/src/Day1/input.txt"));
+        Scanner list = new Scanner(new File(System.getProperty("user.dir") + "/src/Day1/day1Input.txt"));
         while (list.hasNext()) {
             numbers.add(Integer.parseInt(list.next()));
         }
