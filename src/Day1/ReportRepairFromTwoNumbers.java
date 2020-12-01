@@ -9,10 +9,11 @@ import java.util.Scanner;
 public class ReportRepairFromTwoNumbers {
 
     public static void main(String[] args) throws Exception {
+        //URLParser<Integer> website = new URLParser<>("https://adventofcode.com/2020/day/1/input");
         int answer;
         List<Integer> numbers = new ArrayList<>();
-        Scanner list = new Scanner(new File(System.getProperty("user.dir") + "/src/Day1/input.txt"));
 
+        Scanner list = new Scanner(new File(System.getProperty("user.dir") + "/src/Day1/input.txt"));
         while (list.hasNext()) {
             numbers.add(Integer.parseInt(list.next()));
         }

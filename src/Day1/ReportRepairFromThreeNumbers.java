@@ -9,6 +9,7 @@ import java.util.Scanner;
 public class ReportRepairFromThreeNumbers {
 
     public static void main(String[] args) throws Exception {
+        //URLParser<Integer> website = new URLParser<>("https://adventofcode.com/2020/day/1/input");
         int answer;
         List<Integer> numbers = new ArrayList<>();
 
